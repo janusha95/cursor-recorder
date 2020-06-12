@@ -1,0 +1,24 @@
+body {
+	position: relative;
+	margin: 0;
+}
+.start-opt, .stop-opt {
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+}
+div p {
+	margin: 0;
+	padding-top: 6px;
+}
+.start-opt {
+	top: 1em;
+	left: 2em;
+}
+.stop-opt {
+	top: 1em;
+	left: 12em;
+}
