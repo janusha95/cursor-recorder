@@ -14,11 +14,25 @@ div p {
 	margin: 0;
 	padding-top: 6px;
 }
-.start-opt {
+.start-opt:hover, .stop-opt:hover {
+	background-color: skyblue;
+	cursor: pointer;
+}
+#start {
 	top: 1em;
 	left: 2em;
 }
 .stop-opt {
 	top: 1em;
 	left: 12em;
+}
+.cursor {
+	display: none;
+	width: 14px;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+}
+.cursor img {
+	width: 100%;
 }
